@@ -1,1 +1,141 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>가을의 낭만적인 순간</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* CSS 스타일 */
+        body {
+            font-family: 'Noto Serif KR', serif;
+            margin: 0;
+            padding: 0;
+            color: #4A4A4A; /* 진한 회색 텍스트 */
+            background-color: #F8F8F8; /* 밝은 배경 */
+            line-height: 1.6;
+        }
 
+        .header {
+            background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('https://images.unsplash.com/photo-1542401886-65d6c61db217?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80');
+            /* Unsplash의 가을 이미지 URL을 사용했습니다. */
+            background-size: cover;
+            background-position: center;
+            height: 60vh; /* 뷰포트 높이의 60% */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .header h1 {
+            font-size: 3.5em;
+            margin-bottom: 0.2em;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+
+        .header p {
+            font-size: 1.5em;
+            font-weight: 300;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+        }
+
+        .content {
+            padding: 40px 15%;
+            max-width: 1000px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .content h2 {
+            color: #C25B49; /* 고풍스러운 벽돌색 */
+            font-size: 2em;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid #E0B49F;
+        }
+
+        .card-container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+            padding: 20px;
+            margin: 15px;
+            width: 30%;
+            min-width: 250px;
+            text-align: left;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .card h3 {
+            color: #A34E39; /* 더 깊은 가을색 */
+            margin-top: 0;
+            border-bottom: 1px dashed #E0B49F;
+            padding-bottom: 5px;
+        }
+
+        .footer {
+            background-color: #E0B49F; /* 부드러운 가을 톤 */
+            color: #6D3222;
+            text-align: center;
+            padding: 20px;
+            margin-top: 50px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="header">
+        <div>
+            <h1>🍁 가을의 속삭임</h1>
+            <p>모든 것이 금빛으로 물드는 낭만적인 계절</p>
+        </div>
+    </header>
+
+    <main class="content">
+        <h2>🍂 기억하고 싶은 가을의 순간들</h2>
+
+        <div class="card-container">
+            <div class="card">
+                <h3>붉게 물든 단풍</h3>
+                <p>바람에 살랑이는 단풍잎들이 마치 수줍은 듯 얼굴을 붉힙니다. 가장 화려하고도 짧은 아름다움이죠.</p>
+            </div>
+
+            <div class="card">
+                <h3>따뜻한 커피 한 잔</h3>
+                <p>창가에 앉아 김이 모락모락 나는 커피와 함께 좋은 책을 읽는 시간. 고요함 속의 완벽한 평화입니다.</p>
+            </div>
+
+            <div class="card">
+                <h3>높고 푸른 하늘</h3>
+                <p>구름 한 점 없이 맑고 투명한 가을 하늘. 왠지 모를 설렘과 사색에 잠기게 하는 깊이를 지니고 있습니다.</p>
+            </div>
+        </div>
+
+        <p style="margin-top: 40px; font-style: italic; color: #7B7B7B;">
+            가을은 남자의 계절이라지만, 사실은 모든 감성이 깨어나는 낭만적인 시간입니다.
+        </p>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Autumn Romance. 모든 저작권은 가을에게 있습니다.</p>
+    </footer>
+
+</body>
+</html>
